@@ -1,0 +1,27 @@
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\events schedule.exe
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\events schedule.deps.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\events schedule.runtimeconfig.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\events schedule.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\events schedule.pdb
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.AssemblyInfo.cs
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\scopedcss\bundle\events schedule.styles.css
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.csproj.CopyComplete
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\refint\events schedule.dll
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.pdb
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\events schedule.genruntimeconfig.cache
+C:\Users\user1\Documents\כיתה יד\יד תכנות\NET CORE\sarah rom\hm2\events schedule\events schedule\obj\Debug\net6.0\ref\events schedule.dll

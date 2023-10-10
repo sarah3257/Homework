@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+  
+  <head>
+    
+    <meta charset='utf-8' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <label>------ADD</label>
+    <input id="titelEvent" type="text" placeholder="title">
+    <input id="dateEvent" type="date">
+    <button onclick="postEvent()"> Add </button>
+    <label>-------DELETE</label>
+    <select id="mySelect1" >
+    </select>
+    <button id="selectButton1" onclick="deleteEvent()">Delete</button>
+    <label>-------UPDATE</label>
+    <select id="mySelect2" onchange="input_U()">
+    </select>
+    <input id="titelEvent_U" type="text" placeholder="title" >
+    <input id="dateEvent_U" type="date">
+    <button id="selectButton2" onclick="updateEvent()">Update</button>
+    <script>
+    
+        document.addEventListener('DOMContentLoaded', function() {
+          axios.get('https://eventsapi.onrender.com/api/Events').then((res)=>{
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth',
+          events:res.data,
+        });
+        calendar.render();
+      });
+    });
+
+    //הוספה
+    function postEvent()
+        {
+          var x=document.getElementById("titelEvent").value;
+         var y=document.getElementById("dateEvent").value;
+         
+          axios.post("https://eventsapi.onrender.com/api/Events", {
+                "title":x,
+                "start":y
+            })
+            
+        }
+   
+// SELECT  למחיקה ועידכון
+    function start(){
+      axios.get("https://eventsapi.onrender.com/api/Events").then((res) => {
+        array = res.data
+    array.forEach(x => {
+      var option= document.createElement("option");
+        option.text=x.title;
+        document.getElementById("mySelect2").appendChild(option);
+      });
+      array.forEach(x => {
+      var option= document.createElement("option");
+        option.text=x.title;
+        document.getElementById("mySelect1").appendChild(option);
+      });
+    });
+    
+  }
+//מחיקה
+    function deleteEvent() {
+      axios.get("https://eventsapi.onrender.com/api/Events").then((res) => {
+            let id =res.data[document.getElementById("mySelect1").selectedIndex].id;
+            axios.delete(`https://eventsapi.onrender.com/api/Events/${id}`).then(res => {
+              
+            })
+          });
+          
+        }
+
+
+    //פונקציה שמכניסה את העידכון הנבחר
+    function input_U(){
+      axios.get("https://eventsapi.onrender.com/api/Events").then((res) => {
+        document.getElementById("titelEvent_U").value= res.data[document.getElementById("mySelect2").selectedIndex].title;
+        document.getElementById("dateEvent_U").value= res.data[document.getElementById("mySelect2").selectedIndex].start;
+      });
+
+    }
+    //עידכון
+    function updateEvent() {
+      axios.get("https://eventsapi.onrender.com/api/Events").then((res) => {
+
+        let id =res.data[document.getElementById("mySelect1").selectedIndex].id;
+            axios.put(`https://eventsapi.onrender.com/api/Events/${id}`, {
+                "title": document.getElementById("titelEvent_U").value,
+                "start":  document.getElementById("dateEvent_U").value
+            }).then(res => {
+                console.log(res.data)
+            })
+          });
+          
+        }
+
+
+
+    </script>
+  </head>
+  <body onload="start()">
+    
+    <div id='calendar'></div>
+
+  </body>
+</html>
